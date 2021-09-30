@@ -5,8 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.donkingliang.groupedadapter.adapter.GroupedRecyclerViewAdapter;
-import com.donkingliang.groupedadapter.holder.BaseViewHolder;
+import library.group.list.adapter.adapter.GroupedRecyclerViewAdapter;
+import library.group.list.adapter.holder.BaseViewHolder;
 import com.donkingliang.groupedadapterdemo.R;
 import com.donkingliang.groupedadapterdemo.adapter.BindingAdapter;
 import com.donkingliang.groupedadapterdemo.model.GroupModel;

@@ -3,8 +3,8 @@ package com.donkingliang.groupedadapterdemo.decoration;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 
-import com.donkingliang.groupedadapter.adapter.GroupedRecyclerViewAdapter;
-import com.donkingliang.groupedadapter.decoration.AbsGroupedGridItemDecoration;
+import library.group.list.adapter.adapter.GroupedRecyclerViewAdapter;
+import library.group.list.adapter.decoration.AbsGroupedGridItemDecoration;
 import com.donkingliang.groupedadapterdemo.R;
 
 /**

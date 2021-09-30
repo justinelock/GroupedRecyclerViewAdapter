@@ -5,8 +5,8 @@ import android.content.Context;
 import com.donkingliang.groupedadapterdemo.R;
 import com.donkingliang.groupedadapterdemo.entity.ChildEntity;
 import com.donkingliang.groupedadapterdemo.entity.GroupEntity;
-import com.donkingliang.groupedadapter.holder.BaseViewHolder;
-import com.donkingliang.groupedadapter.adapter.GroupedRecyclerViewAdapter;
+import library.group.list.adapter.holder.BaseViewHolder;
+import library.group.list.adapter.adapter.GroupedRecyclerViewAdapter;
 
 import java.util.ArrayList;
 

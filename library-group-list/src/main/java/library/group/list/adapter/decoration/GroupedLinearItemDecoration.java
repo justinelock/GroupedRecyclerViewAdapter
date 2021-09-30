@@ -1,14 +1,9 @@
-package com.donkingliang.groupedadapter.decoration;
+package library.group.list.adapter.decoration;
 
 import android.graphics.drawable.Drawable;
 
-import com.donkingliang.groupedadapter.adapter.GroupedRecyclerViewAdapter;
+import library.group.list.adapter.adapter.GroupedRecyclerViewAdapter;
 
-/**
- * @Author donkingliang QQ:1043214265 github:https://github.com/donkingliang
- * @Description
- * @Date 2020/7/6
- */
 public class GroupedLinearItemDecoration extends AbsGroupedLinearItemDecoration {
 
     private int mHeaderDividerSize;

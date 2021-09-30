@@ -1,12 +1,11 @@
-package com.donkingliang.groupedadapter.layoutmanger;
+package library.group.list.adapter.layoutmanger;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.donkingliang.groupedadapter.adapter.GroupedRecyclerViewAdapter;
+import library.group.list.adapter.adapter.GroupedRecyclerViewAdapter;
 
 import androidx.recyclerview.widget.GridLayoutManager;
-
 
 /**
  * 为分组列表提供的GridLayoutManager。
@@ -62,6 +61,7 @@ public class GroupedGridLayoutManager extends GridLayoutManager {
     /**
      * 提供这个方法可以使外部改变子项的SpanSize。
      * 这个方法的作用跟{@link SpanSizeLookup#getSpanSize(int)}一样。
+     *
      * @param groupPosition
      * @param childPosition
      * @return

@@ -8,9 +8,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.donkingliang.groupedadapter.adapter.GroupedRecyclerViewAdapter;
-import com.donkingliang.groupedadapter.decoration.GroupedLinearItemDecoration;
-import com.donkingliang.groupedadapter.holder.BaseViewHolder;
+import library.group.list.adapter.adapter.GroupedRecyclerViewAdapter;
+import library.group.list.adapter.decoration.GroupedLinearItemDecoration;
+import library.group.list.adapter.holder.BaseViewHolder;
 import com.donkingliang.groupedadapterdemo.R;
 import com.donkingliang.groupedadapterdemo.adapter.GroupedListAdapter;
 import com.donkingliang.groupedadapterdemo.decoration.CustomLinearItemDecoration;

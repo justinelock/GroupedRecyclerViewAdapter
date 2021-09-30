@@ -1,4 +1,4 @@
-package com.donkingliang.groupedadapter.holder;
+package library.group.list.adapter.holder;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;

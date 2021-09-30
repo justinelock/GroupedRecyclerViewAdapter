@@ -1,14 +1,9 @@
-package com.donkingliang.groupedadapter.decoration;
+package library.group.list.adapter.decoration;
 
 import android.graphics.drawable.Drawable;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-/**
- * @Author donkingliang QQ:1043214265 github:https://github.com/donkingliang
- * @Description
- * @Date 2020/7/6
- */
 public interface IGroupedItemDecoration {
 
     int getHeaderDividerSize(int groupPosition);

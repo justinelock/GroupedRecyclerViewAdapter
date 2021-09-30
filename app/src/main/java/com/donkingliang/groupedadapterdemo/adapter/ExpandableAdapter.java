@@ -5,10 +5,10 @@ import android.widget.ExpandableListView;
 import android.widget.ImageView;
 
 import com.donkingliang.groupedadapterdemo.R;
-import com.donkingliang.groupedadapter.adapter.GroupedRecyclerViewAdapter;
+import library.group.list.adapter.adapter.GroupedRecyclerViewAdapter;
 import com.donkingliang.groupedadapterdemo.entity.ChildEntity;
 import com.donkingliang.groupedadapterdemo.entity.ExpandableGroupEntity;
-import com.donkingliang.groupedadapter.holder.BaseViewHolder;
+import library.group.list.adapter.holder.BaseViewHolder;
 
 import java.util.ArrayList;
 

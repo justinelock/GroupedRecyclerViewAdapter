@@ -1,20 +1,15 @@
-package com.donkingliang.groupedadapter.decoration;
+package library.group.list.adapter.decoration;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.donkingliang.groupedadapter.adapter.GroupedRecyclerViewAdapter;
+import library.group.list.adapter.adapter.GroupedRecyclerViewAdapter;
 
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-/**
- * @Author donkingliang QQ:1043214265 github:https://github.com/donkingliang
- * @Description
- * @Date 2020/7/7
- */
 public abstract class AbsGroupedGridItemDecoration extends RecyclerView.ItemDecoration implements IGroupedItemDecoration {
 
     protected GroupedRecyclerViewAdapter mAdapter;
@@ -98,7 +93,7 @@ public abstract class AbsGroupedGridItemDecoration extends RecyclerView.ItemDeco
         int childPosition = mAdapter.getChildPositionForPosition(groupPosition, position);
 
         int right = 0;
-        if (!isRightItem(position, spanCount, itemCount, spanSizeLookup, orientation)){
+        if (!isRightItem(position, spanCount, itemCount, spanSizeLookup, orientation)) {
             right = getColumnDividerSizeForType(itemType, groupPosition, childPosition, orientation);
         }
 

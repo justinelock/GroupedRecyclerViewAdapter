@@ -465,7 +465,7 @@ BaseViewHolder是可以通用的，在普通的Adapter中也可以使用，可�
 
 ```xml
     <!-- 用StickyHeaderLayout包裹RecyclerView -->
-    <com.donkingliang.groupedadapter.widget.StickyHeaderLayout
+    <library.group.list.adapter.widget.StickyHeaderLayout
         android:id="@+id/sticky_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -474,7 +474,7 @@ BaseViewHolder是可以通用的，在普通的Adapter中也可以使用，可�
             android:id="@+id/rv_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-    </com.donkingliang.groupedadapter.widget.StickyHeaderLayout>
+    </library.group.list.adapter.widget.StickyHeaderLayout>
 ```
 StickyHeaderLayout提供了一个设置是否显示悬浮吸顶的方法。
 ```java

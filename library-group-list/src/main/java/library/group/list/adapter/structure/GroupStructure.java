@@ -1,4 +1,4 @@
-package com.donkingliang.groupedadapter.structure;
+package library.group.list.adapter.structure;
 
 /**
  * 这个类是用来记录分组列表中组的结构的。

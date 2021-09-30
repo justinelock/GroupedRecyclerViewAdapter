@@ -1,4 +1,4 @@
-package com.donkingliang.groupedadapter.adapter;
+package library.group.list.adapter.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,9 +7,9 @@ import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.FrameLayout;
 
-import com.donkingliang.groupedadapter.R;
-import com.donkingliang.groupedadapter.holder.BaseViewHolder;
-import com.donkingliang.groupedadapter.structure.GroupStructure;
+import library.group.list.adapter.R;
+import library.group.list.adapter.holder.BaseViewHolder;
+import library.group.list.adapter.structure.GroupStructure;
 
 import java.util.ArrayList;
 

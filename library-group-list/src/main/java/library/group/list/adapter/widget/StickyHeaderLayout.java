@@ -1,4 +1,4 @@
-package com.donkingliang.groupedadapter.widget;
+package library.group.list.adapter.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.donkingliang.groupedadapter.adapter.GroupedRecyclerViewAdapter;
-import com.donkingliang.groupedadapter.holder.BaseViewHolder;
+import library.group.list.adapter.adapter.GroupedRecyclerViewAdapter;
+import library.group.list.adapter.holder.BaseViewHolder;
 
 import java.lang.reflect.Method;
 
@@ -25,8 +25,6 @@ import androidx.recyclerview.widget.StaggeredGridLayoutManager;
  * 并且使用{@link GroupedRecyclerViewAdapter},就可以实现列表头部吸顶功能。
  * StickyHeaderLayout只能包裹RecyclerView，而且只能包裹一个RecyclerView。
  * <p>
- * Author:donkingliang  QQ:1043214265
- * Dat:2017/11/14
  */
 public class StickyHeaderLayout extends FrameLayout {
 
@@ -173,7 +171,7 @@ public class StickyHeaderLayout extends FrameLayout {
                 }
             }
 
-            if (mRecyclerView.computeVerticalScrollOffset() == 0){
+            if (mRecyclerView.computeVerticalScrollOffset() == 0) {
                 // 滑动到顶部
                 recycle();
             }

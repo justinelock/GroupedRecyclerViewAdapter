@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.donkingliang.groupedadapter.holder.BaseViewHolder;
+import library.group.list.adapter.holder.BaseViewHolder;
 import com.donkingliang.groupedadapterdemo.R;
 import com.donkingliang.groupedadapterdemo.entity.GroupEntity;
 import com.donkingliang.groupedadapterdemo.model.GroupModel;

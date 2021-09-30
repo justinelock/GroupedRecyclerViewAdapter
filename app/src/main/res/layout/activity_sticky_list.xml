@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.donkingliang.groupedadapter.widget.StickyHeaderLayout
+    <library.group.list.adapter.widget.StickyHeaderLayout
         android:id="@+id/sticky_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -13,7 +13,7 @@
             android:id="@+id/rv_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-    </com.donkingliang.groupedadapter.widget.StickyHeaderLayout>
+    </library.group.list.adapter.widget.StickyHeaderLayout>
 
 
 </LinearLayout>

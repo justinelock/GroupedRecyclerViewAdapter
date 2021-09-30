@@ -1,1 +1,1 @@
-include ':app', ':groupedadapter'
+include ':app', ':library-group-list'
